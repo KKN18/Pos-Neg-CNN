@@ -1,4 +1,4 @@
-# 긍정/부정 분위기 판별 CNN
+# Positive/Negative Classification CNN
 
 ## Environment
 모든 작업이 Google Colab Notebooks에서 진행되었습니다. 
