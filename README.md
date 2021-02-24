@@ -10,17 +10,17 @@
 
 **Negative Keyword** : Sad, Crying, Depression, Spooky, 자연재해, 외로움
 
-```bash
-├── datasets
-|   ├── train              # Train
-|   |   ├── 0              # Positive images (i.e. Happy)
-|   |   └── 1              # Negative images (i.e. Sad)
-|  
-|   ├── valid              # Validation
-|   |   ├── 0              # Positive images (i.e. Love)
-|   |   └── 1              # Negative images (i.e. Spooky)
-| 
-|   ├── test               # Test images
+
+    ├── datasets
+    |   ├── train              # Train
+    |   |   ├── 0              # Positive images (i.e. Happy)
+    |   |   └── 1              # Negative images (i.e. Sad)
+    |  
+    |   ├── valid              # Validation
+    |   |   ├── 0              # Positive images (i.e. Love)
+    |   |   └── 1              # Negative images (i.e. Spooky)
+    | 
+    |   ├── test               # Test images
 
 ```
 
