@@ -7,5 +7,6 @@
 구글에서 크롤링하여 데이터셋을 만들었습니다.
 
 **Positive Keyword** : Happy, Beautiful Environment, love, 행복, 웃음, 가족
+
 **Negative Keyword** : Sad, Crying, Depression, Spooky, 자연재해, 외로움
 
