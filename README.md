@@ -4,9 +4,16 @@
 모든 작업이 Google Colab Notebooks에서 진행되었습니다. 
 
 ## Dataset
-구글에서 크롤링하여 데이터셋을 만들었습니다.
+구글 크롤링을 이용해 데이터셋을 만들었습니다.
 
 **Positive Keyword** : Happy, Beautiful Environment, love, 행복, 웃음, 가족
 
 **Negative Keyword** : Sad, Crying, Depression, Spooky, 자연재해, 외로움
 
+## Setup
+<code> Google Colab Notebooks</code> 에서 <code> git clone</code> 커맨드를 입력합니다.
+
+    !git clone https://github.com/KKN18/Pos-Neg-CNN.git
+
+1. **train.ipynb** : pretrained Resnet 101을 fine tuning 하여 학습을 진행 및 saved_model 폴더에 저장합니다.
+2. **eval.ipynb** : test 폴더에 있는 사진들에 대해 긍정/부정을 eval합니다. 
