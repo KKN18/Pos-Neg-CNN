@@ -22,7 +22,8 @@
     | 
     |   ├── test               # Test images
 
-[download](https://drive.google.com/drive/folders/14hvvYNGkppzlFY7WcNSp_wj9gpH9Uj1-?usp=sharing) 링크에서 다운받으실 수 있습니다.
+다음 링크를 통해 다운받으실 수 있습니다.
+[Datasets](https://drive.google.com/drive/folders/14hvvYNGkppzlFY7WcNSp_wj9gpH9Uj1-?usp=sharing) 
 
 
 
