@@ -35,3 +35,9 @@
 
 1. **train.ipynb** : pretrained Resnet 101을 fine tuning 하여 학습을 진행 및 saved_model 폴더에 저장합니다.
 2. **eval.ipynb** : test 폴더에 있는 사진들에 대해 긍정/부정을 평가합니다. 
+
+
+## Result
+### Positive로 분류한 사진
+
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/1.jpg">
