@@ -38,6 +38,7 @@
 
 
 ## Result
-### Positive로 분류한 사진
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/2.jpg">
+**>> Positive**
 
-<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/1.jpg">
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/4.jpg">
