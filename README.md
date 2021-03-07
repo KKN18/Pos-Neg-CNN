@@ -39,6 +39,6 @@
 
 ## Result
 <img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/2.jpg">
-**>> Positive**
+**>>Positive**
 
 <img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/4.jpg">
