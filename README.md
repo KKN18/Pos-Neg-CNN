@@ -38,8 +38,30 @@
 
 
 ## Result
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/1.jpg">
+
+**>>Negative**
+
 <img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/2.jpg">
 
 **>>Positive**
 
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/3.jpg">
+
+**>>Negative**
+
 <img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/4.jpg">
+
+**>>Positive**
+
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/5.jpg">
+
+**>>Negative**
+
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/6.jpg">
+
+**>>Positive**
+
+<img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/7.jpg">
+
+**>>Positive**
