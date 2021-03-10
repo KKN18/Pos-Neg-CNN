@@ -27,6 +27,9 @@ parser.add_argument('--valid_root', type=str, default='/content/drive/MyDrive/Co
 parser.add_argument('--save_dir', type=str, default='/content/drive/MyDrive/Colab Notebooks/CNN_Project/saved_model', help='directory to save model')
 opt = parser.parse_args()
 
+if not torch.cuda.is_available():
+    print("WARNING: You have to run with CUDA device")
+
 class imgDataset():
     def __init__(self, root, transform, test=False):
           self.root = root
