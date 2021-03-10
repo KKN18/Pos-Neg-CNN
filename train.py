@@ -137,8 +137,8 @@ for epoch in range(opt.epochs):
             best_model_state = model.state_dict()
             best_optim_state = optim.state_dict()
     scheduler.step(valid_total_loss)
-    if epoch % (epochs // 10) == 0 or epoch == epochs - 1:
-        print(f"""{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} || [{epoch}/{epochs}], train_loss = {train_total_loss:.4f}, train_accuracy = {train_total_accuracy:.2f}, valid_loss = {valid_total_loss:.4f}, valid_accuracy = {valid_total_accuracy:.2f}""")
+    if epoch % (opt.epochs // 10) == 0 or epoch == opt.epochs - 1:
+        print(f"""{time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())} || [{epoch}/{opt.epochs}], train_loss = {train_total_loss:.4f}, train_accuracy = {train_total_accuracy:.2f}, valid_loss = {valid_total_loss:.4f}, valid_accuracy = {valid_total_accuracy:.2f}""")
         print("learning rate " + str(optim.param_groups[0]['lr']))
 elapsed = time.time() - start
 print(f"End of training, elapsed time : {elapsed // 60} min {elapsed % 60} sec.")
