@@ -28,6 +28,9 @@ parser.add_argument('--test_root', type=str, default='/content/drive/MyDrive/Col
 parser.add_argument('--save_dir', type=str, default='/content/drive/MyDrive/Colab Notebooks/CNN_Project/saved_model', help='directory of saved model')
 opt = parser.parse_args()
 
+if not torch.cuda.is_available():
+    print("WARNING: You have to run with CUDA device")
+
 class imgDataset():
     def __init__(self, root, transform=None):
           self.root = root
@@ -83,7 +86,7 @@ for _, (batch) in enumerate(test_loader):
 nTest = len(test_dataset)
 
 def pos_or_neg(res):
-    if res == 1:
+    if res == 0:
         return "Positive"
     else:
         return "Negative"
