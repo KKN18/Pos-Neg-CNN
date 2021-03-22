@@ -29,13 +29,18 @@
 
 
 ## Setup
-<code> Google Colab Notebooks</code> 에서 <code> git clone</code> 커맨드를 입력합니다.
+Repository를 불러오고 현재 경로를 변경합니다.
 
-    !git clone https://github.com/KKN18/Pos-Neg-CNN.git
+    git clone https://github.com/KKN18/Pos-Neg-CNN.git
+    cd Pos-Neg-CNN
 
-1. **train.ipynb** : pretrained Resnet 101을 fine tuning 하여 학습을 진행 및 saved_model 폴더에 저장합니다.
-2. **eval.ipynb** : test 폴더에 있는 사진들에 대해 긍정/부정을 평가합니다. 
+원하는 epochs만큼 CNN 모델을 학습시켜 save_dir에 저장합니다.
 
+    python train.py --epochs 20 --train_root '/content/drive/MyDrive/Colab Notebooks/CNN_Project/datasets/train' --valid_root '/content/drive/MyDrive/Colab Notebooks/CNN_Project/datasets/valid' --save_dir '/content/drive/MyDrive/Colab Notebooks/GitHub/Pos-Neg CNN/saved_model'
+    
+학습한 모델로 test폴더의 사진들에 대해 긍정/부정을 평가합니다.
+
+    python eval.py --test_root '/content/drive/MyDrive/Colab Notebooks/GitHub/Pos-Neg CNN/datasets/test' --save_dir '/content/drive/MyDrive/Colab Notebooks/GitHub/Pos-Neg CNN/saved_model'
 
 ## Result
 <img src = "https://github.com/KKN18/Pos-Neg-CNN/blob/main/test/1.jpg">
